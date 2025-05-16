@@ -36,7 +36,7 @@ This portfolio highlights several academic and internship-based projects using:
 
 ## 🔗 Live Demo
 
-[🔗 View Live Portfolio](https:/him77anshu.github.io/Personal-Portfolio)  
+[🔗 View Live Portfolio](https://github.com/him77anshu/Personal-Portfolio)  
 
 
 ## 📁 How to Use
