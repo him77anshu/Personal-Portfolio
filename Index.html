@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css" />
+  <title>Personal portfolio</title>
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="logo" id="logo">
+      <img src="assets/glasses.jpg" alt="Logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#logo">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#projects-section">Projects</a></li>
+      <li><a href="#recommendation-section">Recommendations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>I’m Himanshu Ranjan<br><span>software</span> Developer</h1>
+        <p>
+         Aspiring software engineer with strong Java, Python, and NLP project experience, 
+         including internships at Infosys and AWS. Demonstrated skills in data engineering, 
+         machine learning, and full-stack development through impactful projects and hackathons.
+        </p>
+        <button id="hire-btn" class="hire-btn">Let's Connect →</button>
+      </div>
+      <div class="hero-image">
+        <img src="assets/1.png" alt="Developer Illustration">
+      </div>
+    </div>
+
+    <div class="decor yellow-circle"></div>
+    <div class="decor yellow-circle-leg"></div>
+    <div class="decor green-circle-top"></div>
+    <div class="decor blue-square"></div>
+    <div class="decor green-circle-bottom"></div>
+    <div class="decor red-triangle"></div>
+    <div class="decor white-triangle"></div>
+    <div class="decor yellow-diamond"></div>
+
+  </header>
+
+  <section class="skills" id="skills">
+    <h2>Skills & Languages</h2>
+     <div class="skills-row">
+    <div class="skill-item">
+      <img src="assets/html5-original.svg" alt="HTML" />
+      <span>HTML</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/css3-original.svg" alt="CSS" />
+      <span>CSS</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/javascript-original.svg" alt="JavaScript" />
+      <span>JavaScript</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/java-original.svg" alt="Java" />
+      <span>Java</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/python-original.svg" alt="Python" />
+      <span>Python</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/mysql-original.svg" alt="MySQL" />
+      <span>MySQL</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/git-original.svg" alt="Git" />
+      <span>Git</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/github-original.svg" alt="GitHub" />
+      <span>GitHub</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/machine learning.png" alt="Machine Learning" />
+      <span>Machine Learning</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/AI.jpg" alt="Artificial Intelligence" />
+      <span>AI</span>
+    </div>
+    <div class="skill-item">
+      <img src="assets/dsa.png" alt="DSA" />
+      <span>DSA</span>
+    </div>
+  </div>
+  <button id="openModalBtn" class="cta-btn">Add Skill</button>
+  </section>
+  <div id="customModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModalBtn">&times;</span>
+      <h3>Add Skill</h3>
+      <input type="text" placeholder="Skill Name" />
+      <button class="cta-btn" id="cancelBtn">Add Skill</button>
+      <button class="cta-btn" id="cancel">Cancel</button>
+    </div>
+  </div>
+
+  <section id="projects-section" class="projects-section">
+    <div class="projects-container">
+      <h2 class="projects-title">Projects</h2>
+      <div class="pro">
+        <p>A compilation of academic projects developed using Java and Python, with </p>
+        <p>a strong focus on machine learning applications.</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/meeting3.jpg" alt="Project 1">
+          <div class="project-content">
+            <h3>Meeting Summarizer & Plan of Action generator using -NLP</h3>
+            <p>Developed a smart meeting summarization system called MeetSummarizer during an internship 
+              at Infosys. The tool uses advanced Natural Language Processing (NLP) techniques to automatically 
+              generate concise meeting summaries and actionable plans from video/audio recordings.</p>
+            <div class="tech-tags">
+              <span>Artificial Intelligence</span>
+              <span>Python</span>
+              <span>NLP</span>
+              <span>TKinter</span>
+              <span>GTP-4 Turbo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/hotel.png" alt="Project 2">
+          <div class="project-content">
+            <h3>Hotel Manegment System</h3>
+            <p>Devlop a Hotel management system using java spring boot. Added funcationality like
+               check room availability , Book room ,cancel room ..etc</p>
+            <div class="tech-tags">
+              <span>java</span>
+              <span>spring boot</span>
+              <span>JDBC</span>
+              <span>CSS</span>
+              <span>html</span>
+              <span>DBMS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/heart.jpeg" alt="Project 3">
+          <div class="project-content">
+            <h3>Heart Disease Pridiction</h3>
+            <p>This project uses machine learning algorithms to predict the presence of heart disease based on
+               patient health data. It aims to improve early diagnosis by analyzing key medical features like age,
+               cholesterol, and blood pressure.</p>
+            <div class="tech-tags">
+              <span>Machine Learning</span>
+              <span>Data Preprocessing & Feature Engineering</span>
+              <span>Python</span>
+              <span>Data Visualization</span>
+              <span>Model Evaluation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <div id="recommendation-section" class="recommendation-section">
+    <h2>Recommendations</h2>
+    <p> Feedback from colleagues and mentors about my work ethic, problem-solving ability,<br> and technical expertise in Java, Python, and Machine Learning. 
+     </p>
+    <div class="slider-container">
+      <div class="slide-track" id="sliderTrack">
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Great Quality!</h3>
+          <p>Himanshu consistently delivers high-quality work with great attention to detail. 
+            His problem-solving skills and technical knowledge in Python <br>and machine learning are truly impressive.</p>
+          <div class="user">
+            <img src="assets/recommendation1.jpeg" alt="James">
+            <div class="user-details">
+              <strong>Madhu Priya</strong>
+              Graphic Designer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Amazing Work!</h3>
+          <p>Himanshu's dedication and passion for learning new technologies stood out during our internship.
+             His contributions to the project were both innovative and impactful</p>
+          <div class="user">
+            <img src="assets/san.webp" alt="Tiana">
+            <div class="user-details">
+              <strong>Santosh Kumar</strong>
+              Mentor
+
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Great Quality!</h3>
+          <p>Working with Himanshu on a full-stack project was a fantastic experience. He brings 
+            clarity to complex problems and is always willing to take initiative in team discussions.</p>
+          <div class="user">
+            <img src="assets/recommendation3.jpeg" alt="Talan">
+            <div class="user-details">
+              <strong>Nandani Raj</strong>
+              Business Man
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Top Service!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation4.jpeg" alt="Anna">
+            <div class="user-details">
+              <strong>Anna R</strong>
+              Developer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Exceptional!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation5.jpeg" alt="Liam">
+            <div class="user-details">
+              <strong>Liam J</strong>
+              UI Designer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Exceptional!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation5.jpeg" alt="Liam">
+            <div class="user-details">
+              <strong>Liam J</strong>
+              UI Designer
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+  <!-- Contact Section -->
+  <div class="contact-section" id="contact">
+
+    <div class="form-container">
+      <h2>Leave ME Your Info</h2>
+      <input type="text" placeholder="Your Full Name ( Required )" />
+      <input type="email" placeholder="Your Email ( Required )" />
+      <input type="text" placeholder="Subject" />
+      <button class="cta1-btn">Send Message</button>
+    </div>
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <div class="info-box">
+        <div class="icon-circle">📍</div>
+        <div class="info-details">
+          <div><span>Country:</span> India</div>
+          <div><span>City:</span> Greater Noida</div>
+          <div><span>Streat:</span> Alpha 2</div>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="icon-circle">✉️</div>
+        <div class="info-details">
+          <div><span>Email:</span>krithimanshu4321@gmail.com</div>
+          <div><span>Telegram:</span> @Mrcharli2</div>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="icon-circle">📞</div>
+        <div class="info-details">
+          <div><span>Personal:</span>7766871331</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+
+    <div class="top-logos">
+      <img src="assets/logo1.png" alt="Logo 1" />
+      <img src="assets/logo2.png" alt="Logo 2" />
+      <img src="assets/logo3.png" alt="Logo 3" />
+      <img src="assets/logo4.png" alt="Logo 4" />
+    </div>
+
+    <div class="glasses">
+      <img src="assets/glasses.jpg" alt="Main Logo" />
+    </div>
+    <div class="footer-main">
+   <div class="ratings">
+        <div>
+          <img src="assets/lorem-icon.png" /><br>
+          <span>4.5/5 Rating On Lorem</span>
+        </div>
+        <div>
+          <img src="assets/ipsum-icon.png" /><br>
+          <span>9/10 Rating On Ipsum</span>
+        </div>
+        <div>
+          <img src="assets/dorel-icon.png" /><br>
+          <span>4.5/5 Rating On Dorel</span>
+        </div>
+      </div>
+      <div class="links">
+        <h4>Quick Links</h4>
+        <a href="#">Home</a>
+        <a href="#">Skills</a>
+        <a href="#">Education</a>
+        <a href="#">Projects</a>
+        <a href="#">Recommendations</a>
+      </div>
+
+      <div class="portfolio">
+        <h4>Portfolio</h4>
+        <a href="#">Frontend Development</a>
+        <a href="#">Backend Development</a>
+        <a href="#">Java programming</a>
+        <a href="#">python </a>
+        <a href="#">Machine Learning</a>
+        <a href="#">Problem Solving & DSA</a>
+      </div>
+
+      <div class="social">
+        <h4>Connect</h4>
+        <a href="https://www.linkedin.com/in/himanshu-ranjan-88524b273/"><img src="assets/linkedin.png" /></a>
+        <a href="#"><img src="assets/instagram.png" /></a>
+        <a href="https://github.com/him77anshu/him77anshu.git"><img src="assets/github.png" /></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2025 Copyright, All Right Reserved</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
