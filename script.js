@@ -4,6 +4,23 @@ const closeBtn = document.getElementById("closeModalBtn");
 const cancelBtn = document.getElementById("cancelBtn");
 const cancel = document.getElementById("cancel");
 const hirebtn = document.getElementById("hire-btn");
+document.addEventListener("DOMContentLoaded", function() {
+    const meeting = document.getElementById("porject-meeting");
+    const hotel = document.getElementById("project-hotel");
+    const heart = document.getElementById("project-heart");
+
+    meeting?.addEventListener("click", function() {
+        window.open("https://github.com/him77anshu/Meeting-Summarizer-and-plan-of-action-generator-using-NLP", "_blank");
+    });
+
+    hotel?.addEventListener("click", function() {
+        window.open("https://github.com/him77anshu/Hotel-management", "_blank");
+    });
+
+    heart?.addEventListener("click", function() {
+        window.open("https://github.com/him77anshu/Heart-Disease-prediction", "_blank");
+    });
+});
 
 hirebtn.addEventListener("click", function () {
     window.open("https://www.linkedin.com/in/himanshu-ranjan-88524b273/", "_blank");
